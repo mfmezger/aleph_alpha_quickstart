@@ -16,3 +16,6 @@ numpy = "^1.24.2"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[settings]
+known_third_party = ["aleph_alpha_client", "dotenv", "numpy"]

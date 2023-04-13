@@ -5,7 +5,7 @@
 First you need a Python 3.10 installed.
 
 Then install poetry with:
-    
+
 ```bash
 pip install poetry
 ```

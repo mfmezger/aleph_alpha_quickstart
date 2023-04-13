@@ -1,10 +1,11 @@
-from aleph_alpha_client import Client, Prompt, CompletionRequest
 import os
+
+from aleph_alpha_client import Client, CompletionRequest, Prompt
 from dotenv import load_dotenv
+
 load_dotenv()
 
 model = Client(token=os.getenv("AA_TOKEN"))
-
 
 
 prompt_text = """
@@ -30,7 +31,7 @@ Table:
 |Artikel1|Gebrauchter Fahrradhelm|
 |Gesamtpreis|160€|
 ###
-Text: 
+Text:
 dd Muster GmbHMuster GmbH Lange Str. 2 | 10245 BerlinHabermann & SöhneSchnurlos-Straße 81
 34131 KasselMuster GmbH
 Lange Str. 2
@@ -51,7 +52,8 @@ Musterartikel
 3 V-13kg Versand und Verpackung 1,00 Stk. 11,99 11,99
 Summe Netto € 186,99
 19,00% USt. auf 186,99 € € 35,53
-Endsumme € 222,51Lieferbedingung: Postversand10 Tage 5% Skonto, 30 Tage ohne AbzugMuster GmbH : Sparkasse Berlin : Konto 10 25 25 25 : BLZ 500 600 26 : IBAN DE10 25 25 25 500 600 26 02: BIC HERAKLES02
+Endsumme € 222,51Lieferbedingung: Postversand10 Tage 5% Skonto, 30 Tage ohne AbzugMuster GmbH : Sparkasse Berlin :
+Konto 10 25 25 25 : BLZ 500 600 26 : IBAN DE10 25 25 25 500 600 26 02: BIC HERAKLES02
 Sitz der Gesellschaft: Berlin, Deutschland : Geschäftsführung: Max Mustermann - Handelsregister: AG Berlin HRB 123456 - USt-IdNr. DE216398573
 Diese Rechnungsvorlage wurde erstellt von www.weclapp.com/de
 ###
