@@ -54,7 +54,8 @@ Summe Netto € 186,99
 19,00% USt. auf 186,99 € € 35,53
 Endsumme € 222,51Lieferbedingung: Postversand10 Tage 5% Skonto, 30 Tage ohne AbzugMuster GmbH : Sparkasse Berlin :
 Konto 10 25 25 25 : BLZ 500 600 26 : IBAN DE10 25 25 25 500 600 26 02: BIC HERAKLES02
-Sitz der Gesellschaft: Berlin, Deutschland : Geschäftsführung: Max Mustermann - Handelsregister: AG Berlin HRB 123456 - USt-IdNr. DE216398573
+Sitz der Gesellschaft: Berlin, Deutschland : Geschäftsführung: Max Mustermann - Handelsregister: AG Berlin HRB 123456 -
+USt-IdNr. DE216398573
 Diese Rechnungsvorlage wurde erstellt von www.weclapp.com/de
 ###
 Please extract the information Name, Adresse, Rechnungsdatum, Artikel 0 ... ArtikelX, Gesamtpreis

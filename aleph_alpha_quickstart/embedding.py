@@ -51,6 +51,9 @@ if __name__ == "__main__":
     with open("ressources/large_text.txt") as f:
         large_text = f.read()
 
+    # remove line breaks at the end of the text
+    large_text = large_text.strip()
+
     text_chunks = large_text.split("\n")
     text_embeddings = [embed(text, SemanticRepresentation.Document) for text in text_chunks]
     query_embedding = embed(query, SemanticRepresentation.Query)
