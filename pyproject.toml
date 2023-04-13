@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "aleph-alpha-quickstart"
+version = "0.1.0"
+description = ""
+authors = ["Marc Mezger <marc.mezger@gmail.com>"]
+readme = "README.md"
+packages = [{include = "aleph_alpha_quickstart"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aleph-alpha-client = "^3.1.0"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
