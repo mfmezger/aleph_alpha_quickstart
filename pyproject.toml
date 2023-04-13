@@ -10,6 +10,7 @@ packages = [{include = "aleph_alpha_quickstart"}]
 python = "^3.10"
 aleph-alpha-client = "^3.1.0"
 python-dotenv = "^1.0.0"
+numpy = "^1.24.2"
 
 
 [build-system]
